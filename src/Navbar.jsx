@@ -7,7 +7,7 @@ import CartWidget from "./CartWidget";
 
 const NavBarWidget = () =>{
     return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="green" >
     <Container>
       <Navbar.Brand href="#home">VideoClub</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -15,8 +15,7 @@ const NavBarWidget = () =>{
         <Nav className="me-auto">
           <Nav.Link href="#peliculas">Peliculas</Nav.Link>
           <Nav.Link href="#videojuegos">VideoJuegos</Nav.Link>
-           <CartWidget/> 
-           
+           <CartWidget/>
         </Nav>
         <Nav>
           {/* <Nav.Link href="#deets">More deets</Nav.Link> */}
