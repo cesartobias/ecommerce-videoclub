@@ -1,4 +1,4 @@
-import NavBarWidget from "./Navbar";
+import NavBarWidget from "./components/Menu/Navbar";
 
 function App() {
   return (

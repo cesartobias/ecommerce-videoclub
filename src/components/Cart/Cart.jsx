@@ -1,4 +1,5 @@
-import carrito from './icons/shopping-cart.png'
+import carrito from '../../icons/shopping-cart.png'
+
 
 function CartWidget() {
     return (
