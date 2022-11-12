@@ -13,13 +13,13 @@ const ItemListContainer = (obj) => {
         .then((resp) =>
           setProducts(resp.filter((prod) => prod.categoria === categoriaId))
         )
-        .catch((err) => console.log(err))
-        .finally(() => setLoading(false));
+        .catch((err) => console.log(err));
+      // .finally(() => setLoading(false));
     } else {
       data()
         .then((resp) => setProducts(resp))
-        .catch((err) => console.log(err))
-        .finally(() => setLoading(false));
+        .catch((err) => console.log(err));
+      // .finally(() => setLoading(false));
     }
   }, [categoriaId]);
 
